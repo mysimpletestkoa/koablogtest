@@ -1,0 +1,33 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.sublime-workspace",
+				"**/*.js",
+				"**/*.js.map"
+			],
+			"folder_exclude_patterns":
+			[
+				"config",
+				"node_modules",
+				"dist",
+				"font-awesome-4.7.0"
+			],
+			"path": "client"
+		},
+		{
+			"folder_exclude_patterns":
+			[
+				"node_modules",
+				"dist"
+			],
+			"path": "server"
+		},
+		{
+			"name": "webpack.config",
+			"path": "client\\config"
+		}
+	]
+}

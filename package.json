@@ -1,0 +1,12 @@
+{
+  "name": "koa-blog-mongo",
+  "version": "0.0.1",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server\//index.js && ..\//client\//npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "V.Khomenko",
+  "license": "MIT"
+}

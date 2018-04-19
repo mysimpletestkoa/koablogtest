@@ -1,0 +1,72 @@
+<article style="height:100%;">
+  <div class="row justify-content-md-center">
+    <div class="col-sm-12 col-md-8 col-lg-8">
+      <form name="form" (ngSubmit)="f.form.valid" #f="ngForm" novalidate>
+        <div class="card">
+          <!-- <p>{{comment?.body}}</p> -->
+          <div *ngIf="document" class="card-header">
+            <div class="form-group row">
+              <div *ngIf="!newDocument">
+                <div class="col-sm-12">
+                  ID: {{document?._id}}
+                </div>
+              </div>
+              <div *ngIf="newDocument">
+                <div class="col-sm-12">
+                  <h2>Новое сообщение</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-block">
+            <div class="form-group row">
+              <label class="col-sm-12 control-label">Заголовок статьи: </label>
+              <div class="col-sm-12">
+                <input type="text" name="title" id="" readonly={{readOnly}} class="form-control noresize" [(ngModel)]="document.title">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-sm-12 control-label">Текст статьи: </label>
+              <div class="col-sm-12">
+                <textarea name="description" id="" cols="30" rows="5" readonly={{readOnly}} class="form-control noresize" [(ngModel)]="document.body"></textarea>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-4">
+                <label class="control-label">Дата публикации: </label>
+                <input class="form-control" readonly={{readOnly}} type="date" [(ngModel)]="created_at" format="dd-mm-yyyy" name="created_at">
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="form-group row">
+              <div class="col-sm-offset-2 col-sm-12">
+                <button (click)="goBack()" class="btn btn-secondary" type="reset">Назад</button>
+                <button *ngIf ="!readOnly" (click)="save()" class="btn btn-primary" type="submit">Сохранить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div *ngIf="!newDocument" class="card comments">
+          <div class="form-group row">
+            <div class="col-sm-2" style="padding-right:1px">
+              <input type="text" name="comment_owner" id="" readonly={{readOnly}} class="form-control noresize" [(ngModel)]="comment_owner" placeholder="автор">
+            </div>
+            <div class="col-sm-8" style="padding-left:1px;padding-right:1px">
+              <input type="text" name="comment_text" id="" readonly={{readOnly}} class="form-control noresize" [(ngModel)]="comment_text" placeholder="оставить комментарий">
+            </div>
+            <div class="col-sm-2" style="padding-left:1px">
+              <button (click)="addComment()" class="btn btn-primary">Отправить</button>
+            </div>
+            <div *ngFor="let comment of comments" class="form-group col-sm-11 comment" style="border:1px solid lightgray">
+              <h5>автор: {{comment.owner}}</h5>
+              <p>{{comment.body}}</p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</article>
+

@@ -1,0 +1,57 @@
+<div class="container">
+  <header id="header" class="">
+    <div class="row">
+      <div class="col-sm-1 col-md-1 col-lg-1">
+        <a href="/" class="logo">
+          <img src="../assets/images/angular.png" alt="иконка" class="hd" title='титул'>
+        </a>
+      </div>
+      <div class="col-sm-11 col-md-9 col-lg-9" style="display:flex; min-height: 60px;">
+        <h4 style="color:white; font-size: 14pt; font-weight:bold;margin:auto;">
+          Каталог статей
+        </h4>
+      </div>
+      <div class="col-sm-12 col-md-2 col-lg-2">
+        <p class="text-right"><strong>г. Ставрополь</strong></p>
+      </div>
+    </div>
+  </header><!-- /header -->
+
+  <nav class="navbar navbar-static-top navbar-toggleable-md navbar-light bg-faded" id="main-navbar">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="navСontent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav-content">
+      <ul class="navbar-nav mr-auto ">
+        <li *ngFor="let item of currentMenu" class="nav-item" [class.active]="router.url==='item.href'">
+          <a class="nav-link" [routerLink]="item.href">{{item.title}}</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <!-- <document-search></document-search> -->
+        <div class="input-group" id="adv-search">
+          <input type="text" class="form-control" placeholder="Поиск" name="search" [(ngModel)]="searchString"/>
+          <div class="input-group-btn">
+            <div class="btn-group" role="group">
+
+              <button type="button" class="btn btn-primary" (click)="search()"><span><i class="fa fa-search" aria-hidden="true"></i></span></button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+      <alert></alert>
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+  <footer>
+    <div style="display:flex;">
+      <a href="http://google.ru" target="_blank" style="color:yellow;margin:auto;">
+        "GOOGLE"
+      </a>
+    </div>
+  </footer>
+</div>

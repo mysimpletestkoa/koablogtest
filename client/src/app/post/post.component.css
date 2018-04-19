@@ -1,0 +1,76 @@
+/* h5{color:#618ad2;text-shadow:2px2px0#cccccc;font-weight:bold;font-size: 14px;} */
+a { text-decoration: none; cursor:pointer; }
+[class*='col-'] {padding:0;margin:0;}
+.row{font-size:14px;}
+.card:hover { border-width: 1px;border-color: #025AA5; cursor: pointer; }
+/* .card-header { background-color: #63DD8D; color: #EDFD3F; } */
+.col-sm-1:hover {
+  /* background-color: #EEE; */
+  cursor: pointer;
+  /* color: #607d8b; */
+}
+.col-sm-2 {
+    padding-left:  10px;
+}
+textarea{height:4em;font-size:14px;font-weight:bold;}
+.noresize{resize:vertical;}
+/* скрываем чекбоксы и блоки с содержанием */
+.hide, .hide + label ~ div {display: none;}
+/* вид текста label */
+.hide + label,
+.hide:checked + label {
+    padding: 0;
+    color: #0275d8;
+    cursor: pointer;
+    /* border-bottom: 1px dotted #0275d8; */
+}
+.hide:hover + label {
+    color: #025AA5;
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: gray;
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block;
+    background: #efefef;
+    padding: 10px;
+    /* чуточку анимации при появлении */
+     -webkit-animation:fade ease-in 0.5s;
+     -moz-animation:fade ease-in 0.5s;
+     animation:fade ease-in 0.5s;
+}
+@-moz-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+.hide + label:before {
+    background-color: #1e90ff;
+    color: #fff;
+    content: "\002B";
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 14px;
+    line-height: 12px;
+    margin: 4px 4px;
+    text-align: center;
+    width: 16px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.hide:checked + label:before {
+    content: "\2212";
+}

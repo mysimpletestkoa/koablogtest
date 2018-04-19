@@ -1,0 +1,624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mogo",
+				"mongoose"
+			],
+			[
+				"Comment",
+				"commentService\tproperty"
+			],
+			[
+				"com",
+				"comment_text\tproperty"
+			],
+			[
+				"ng",
+				"ng-click\tAngularJS"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"d",
+				"div\t<div>"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"curren",
+				"currentUser\tproperty"
+			],
+			[
+				"curre",
+				"currentUser\tproperty"
+			],
+			[
+				"get",
+				"getCurrent\tmethod"
+			],
+			[
+				"autho",
+				"authority\tproperty"
+			],
+			[
+				"input",
+				"inputElement\tlet"
+			],
+			[
+				"aut",
+				"authority\tproperty"
+			],
+			[
+				"re",
+				"removeChild\tmethod"
+			],
+			[
+				"s",
+				"saveAuthority\tmethod"
+			],
+			[
+				"key",
+				"keyup\tvar"
+			],
+			[
+				"onmo",
+				"onmouseout\tvar"
+			],
+			[
+				"is",
+				"isModerator\tproperty"
+			],
+			[
+				"Sea",
+				"searchString\tproperty"
+			],
+			[
+				"blue",
+				"skyblue"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"t",
+				"toString\tmethod"
+			],
+			[
+				"String",
+				"string\tkeyword"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"loca",
+				"$location\tAngularJS"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"suppli",
+				"supplicants"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"supplican",
+				"supplicant"
+			],
+			[
+				"$loca",
+				"$location\tAngularJS"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"BODY",
+				"body"
+			],
+			[
+				"col",
+				"col-sm-12"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"index",
+				"IndexRegStructBaseCtrl"
+			],
+			[
+				"ski",
+				"skipRecord"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"row",
+				"row_body"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"$root",
+				"$rootScope\tAngularJS"
+			],
+			[
+				"pro",
+				"production"
+			],
+			[
+				"data",
+				"data-toggle"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"plugin",
+				"plugin_type"
+			],
+			[
+				"str",
+				"string"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "server/index.js",
+			"settings":
+			{
+				"buffer_size": 3809,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/README.MD",
+			"settings":
+			{
+				"buffer_size": 768,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 320.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"exit",
+			"dir",
+			"pwd",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Y/Projects/koa/client",
+		"/Y/Projects/koa/client/src",
+		"/Y/Projects/koa/client/src/app",
+		"/Y/Projects/koa/client/src/app/_services",
+		"/Y/Projects/koa/client/src/app/post",
+		"/Y/Projects/koa/server"
+	],
+	"file_history":
+	[
+		"/Y/Projects/koa/client/src/app/postDetail/post-detail.component.html",
+		"/Y/Projects/koa/client/src/app/postDetail/post-detail.component.ts",
+		"/Y/Projects/koa/client/src/app/_services/menu.service.ts",
+		"/Y/Projects/koa/client/src/app/post/post.component.html",
+		"/Y/Projects/koa/server/index.js",
+		"/Y/Projects/koa/client/src/app/_services/comment.service.ts",
+		"/Y/Projects/koa/server/config/config.js",
+		"/Y/Projects/koa/client/src/app/_models/comment.ts",
+		"/Y/Projects/koa/client/src/app/postDetail/post-detail.component.css",
+		"/Y/Projects/koa/client/src/app/app.component.ts",
+		"/Y/Projects/koa/client/src/app/app.module.ts",
+		"/Y/Projects/koa/server/README.MD",
+		"/Y/Projects/koa/server/config.js",
+		"/Y/Projects/koa/client/src/app/_services/index.ts",
+		"/Y/Projects/koa/client/src/app/postDetail/index.ts",
+		"/Y/Projects/koa/client/src/app/_models/index.ts",
+		"/Y/Projects/koa/client/src/app/_services/post.service.ts",
+		"/Y/Projects/koa/client/src/app/post/post.component.ts",
+		"/Y/Projects/koa/client/src/app/postDetail/comment.component.ts",
+		"/Y/Projects/koa/client/src/app/app.component.html",
+		"/Y/Projects/koa/client/src/app/app.routing.ts",
+		"/Y/seed.wp/client/src/app/app.component.html",
+		"/Y/seed.wp/client/src/app/documentDetail/document-detail.component.ts",
+		"/Y/seed.wp/client/src/app/app.module.ts",
+		"/Y/seed.wp/client/src/app/documents/documents.component.ts",
+		"/Y/seed.wp/client/src/app/_services/authentication.service.ts",
+		"/Y/seed.wp/client/src/app/app.routing.ts",
+		"/Y/seed.wp/client/package.json",
+		"/Y/seed.wp/client/src/index.html",
+		"/Y/seed.wp/client/src/app/post/post.component.ts",
+		"/Y/seed.wp/client/src/app/app.config.ts",
+		"/Y/seed.wp/client/src/app/_helpers/custom-http.ts",
+		"/Y/seed.wp/client/src/vendor.ts",
+		"/Y/seed.wp/client/config/webpack.common.js",
+		"/C/Users/khomenko/Desktop/Angular2.txt",
+		"/C/Users/khomenko/Desktop/hosts",
+		"/Y/reestr.stavregion.ru/client/src/app/app.config.ts",
+		"/Y/reestr.stavregion.ru/client/src/app/app.component.html",
+		"/Y/reestr.stavregion.ru/client/src/app/documents/documents.component.html",
+		"/Y/reestr.stavregion.ru/client/src/app/_services/menu.service.ts",
+		"/Y/reestr.stavregion.ru/client/src/app/documents/documents.component.ts",
+		"/Y/reestr.stavregion.ru/server/services/document.service.js",
+		"/Y/reestr.stavregion.ru/client/src/app/app.routing.ts",
+		"/Y/reestr.stavregion.ru/client/src/app/documentDetail/document-detail.component.ts",
+		"/Y/reestr.stavregion.ru/server/package.json",
+		"/Y/reestr.stavregion.ru/client/package.json",
+		"/Y/reestr.stavregion.ru/client/src/app/_models/document.ts",
+		"/Y/reestr.stavregion.ru/client/src/app/documentDetail/document-detail.component.html",
+		"/Y/reestr.stavregion.ru/client/src/app/users/users.component.ts",
+		"/Y/reestr.stavregion.ru/client/src/app/_services/user.service.ts",
+		"/Y/reestr.stavregion.ru/client/src/app/documents/documents.component.css",
+		"/Y/reestr.stavregion.ru/client/src/assets/app.css",
+		"/Y/reestr.stavregion.ru/server/server.js",
+		"/Y/reestr.stavregion.ru/client/config/webpack.dev.js",
+		"/Y/reestr.a2.login/client/src/app/documents/documents.component.html",
+		"/Y/reestr.a2.login/client/src/app/documents/documents.component.css",
+		"/Y/reestr.a2.login/client/src/app/documentDetail/document-detail.component.html",
+		"/Y/reestr.a2.login/client/src/app/documentDetail/document-detail.component.ts",
+		"/Y/reestr.a2.login/server/services/document.service.js",
+		"/Y/reestr.a2.login/client/src/app/_models/document.ts",
+		"/Y/reestr.a2.login/client/src/app/documents/documents.component.ts",
+		"/Y/reestr.a2.login/client/src/app/app.component.ts",
+		"/Y/reestr.a2.login/client/package.json",
+		"/Y/reestr.a2.login/client/src/app/users/users.component.html",
+		"/Y/reestr.a2.login/client/src/app/users/users.component.ts",
+		"/Y/reestr.a2.login/server/services/user.service.js",
+		"/Y/reestr.a2.login/client/src/app/users/users.component.css",
+		"/Y/reestr.a2.login/client/src/app/authorities/authorities.component.html",
+		"/Y/reestr.a2.login/client/LICENSE",
+		"/Y/reestr.a2.login/client/README.md",
+		"/Y/reestr.a2.login/client/package-lock.json",
+		"/Y/reestr.a2.login/client/src/app/app.component.html",
+		"/Y/reestr.a2.login/client/src/app/_services/authentication.service.ts",
+		"/Y/reestr.a2.login/client/src/app/_services/user.service.ts",
+		"/Y/reestr.a2.login/client/src/app/_helpers/custom-http.ts",
+		"/Y/reestr.a2.login/client/src/app/_services/menu.service.ts",
+		"/Y/reestr.a2.login/client/src/index.html",
+		"/Y/reestr.a2.login/client/src/app/app.config.ts",
+		"/Y/reestr.a2.login/server/controllers/users.controller.js",
+		"/Y/reestr.a2.login/client/src/app/_services/document.service.ts",
+		"/Y/reestr.a2.login/client/src/app/login/login.component.ts",
+		"/Y/reestr.a2.login/client/src/app/app.module.ts",
+		"/Y/reestr.a2.login/client/src/app/app.routing.ts",
+		"/Y/reestr.a2.login/server/server.js",
+		"/Y/reestr.a2.login/client/src/app/_models/user.ts",
+		"/Y/reestr.a2.login/client/src/app/_models/index.ts",
+		"/Y/reestr.a2.login/client/src/app/_guards/auth.guard.ts",
+		"/Y/reestr.a2.login/client/src/app/authorities/authorities.component.ts",
+		"/Y/reestr.a2.login/server/services/authority.service.js",
+		"/Y/reestr.a2.login/server/controllers/authorities.controller.js",
+		"/Y/reestr.a2.login/client/src/app/_services/authority.service.ts",
+		"/Y/reestr.a2.login/client/src/app/documentDetail/document-detail.component.css",
+		"/Y/reestr.a2.login/client/src/app/authorities/authorities.component.css",
+		"/Y/reestr.a2.login/client/src/app/authorities/index.ts",
+		"/Y/reestr.a2.login/client/src/app/documents/index.ts",
+		"/Y/reestr.a2.login/client/src/app/register/register.component.ts",
+		"/Y/reestr.a2.login/client/src/app/register/register.component.html",
+		"/Y/reestr.a2.login/client/src/app/discussion/discussion.component.ts",
+		"/Y/reestr.a2.login/client/src/app/discussion/discussion.component.html",
+		"/Y/reestr.a2.login/client/src/app/anticorruption/anticorruption.component.ts",
+		"/Y/reestr.a2.login/server/controllers/documents.controller.js",
+		"/Y/reestr.a2.login/client/src/app/discussion/discussion.component.css",
+		"/Y/reestr.a2.login/client/src/assets/app.css",
+		"/Y/reestr.a2.login/client/src/app/login/login.component.html",
+		"/Y/reestr.a2.login/client/src/app/register/register.component.css",
+		"/Y/reestr.a2.login/client/src/app/login/login.component.css",
+		"/Y/reestr.a2.login/client/src/app/_directives/index.ts",
+		"/Y/reestr.a2.login/client/src/app/_directives/accordion.component.ts",
+		"/Y/reestr.a2.login/client/src/app/anticorruption/anticorruption.component.html",
+		"/Y/reestr.a2.login/client/src/app/users/index.ts",
+		"/Y/reestr.a2.login/client/src/app/anticorruption/anticorruption.component.css",
+		"/C/Users/khomenko/Desktop/volvo/zip.txt",
+		"/Y/reestr.a2.login/client/src/app/_models/menu.ts",
+		"/Y/reestr.a2.login/client/src/app/_services/index.ts",
+		"/Y/reestr.a2.login/client/src/app/_services/upload.service.ts",
+		"/Y/reestr.a2.login/client/src/app/_models/doctype.ts",
+		"/Y/reestr.a2.login/client/src/app/discussion/index.ts",
+		"/Y/reestr.a2.login/server/services/doctype.service.js",
+		"/Y/reestr.a2.login/server/controllers/doctypes.controller.js",
+		"/Y/reestr.a2.login/client/src/app/_services/doctype.service.ts",
+		"/Y/reestr.a2.login/client/src/app/_models/authority.ts",
+		"/D/Projects/AdminEIAS/unitedit.pas",
+		"/Y/reestr.a2.login/client/src/app/home/home.component.ts",
+		"/Y/reestr.a2.login/client/src/app/home/home.component.html",
+		"/Y/reestr.a2.login/client/src/app/register/index.ts",
+		"/Y/reestr.a2.login/server/services/upload.service.js",
+		"/Y/reestr.a2.login/server/controllers/upload.controller.js",
+		"/Y/reestr.a2.login/client/src/app/fileUpload/drag-upload-input.component.ts"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 137.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "server/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3809,
+								3809
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2376.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server/README.MD",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "meanstack.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

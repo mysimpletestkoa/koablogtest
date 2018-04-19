@@ -1,0 +1,6 @@
+/* [class*='col-'] {padding:0;margin:0;} */
+/* .row{font-size:14px;margin: 5px;} */
+article {padding:10px;margin:0;}
+.card-header, .card-footer {background-color: lightgray}
+.comment {padding:10px;margin:10px;background-color: white}
+.comments {padding:10px;background-color: white}

@@ -1,0 +1,27 @@
+﻿<article style="padding: 5px;">
+  <div class="row justify-content-center">
+    <div class="col-sm-8 text-center">
+      <h2>{{pageHeader}}</h2>
+    </div>
+    <div class="col-sm-2 text-center"></div>
+  </div>
+  <div *ngIf="recordCount==0" class="row">
+   <div class="col-sm-4" ></div>
+   <div class="card col-sm-4" style="padding:40px;margin-bottom: 10px;">
+     <h1 class="text-center">Пока здесь ничего нет</h1>
+   </div>
+   <div class="col-sm-4" ></div>
+ </div>
+ <div *ngFor="let document of posts" class="row justify-content-md-center" style="padding:10px;margin-bottom: 10px;">
+  <div class="card col-md-8" [routerLink]="['/postdetail', document._id]">
+    <div class="card-header">
+      <h4>{{document.title }}</h4>
+    </div>
+    <div class="card-block">
+      <p>{{document.body}}</p>
+      <p>{{document.created_at | date }}</p>
+    </div>
+  </div>
+</div>
+<br>
+</article>
